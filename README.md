@@ -25,11 +25,9 @@ distributions.
 ## Status
 [![Build Status](https://travis-ci.org/joachifm/cl-webkit.svg?branch=master)](https://travis-ci.org/joachifm/cl-webkit)
 
-The binding currently covers most of the WebKit 2.4 API.
-
 ## Dependencies
 - A working installation of WebKit2GTK+ (whichever
-  package provides libwebkit2gtk-3.0.so, e.g.,
+  package provides libwebkit2gtk-4.0.so, e.g.,
   libwebkit2gtk on Debian).
 - A [CFFI] compatible Common Lisp implementation.
   The package is developed using [SBCL] but should work on any
